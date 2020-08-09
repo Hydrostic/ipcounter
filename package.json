@@ -1,0 +1,23 @@
+{
+  "name": "ipcounter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hydrostic/ipcounter",
+  "author": "Hydrostic",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "gm": "^1.23.1",
+    "ip": "^1.1.5",
+    "ipdb": "^0.3.3",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "proxy-addr": "^2.0.6",
+    "qqwry.ipdb": "^2020.8.5",
+    "text-to-svg": "^3.1.5",
+    "ua-parser-js": "^0.7.21"
+  }
+}
